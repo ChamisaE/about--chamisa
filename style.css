@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+	font-family: Georgia, sans-serif;
+	font-size: large;
+	background-color: snow;
+	align-content: center;
+	background: linear-gradient(200deg, #2be8b7, #db2dd4);
+	background-size: 400% 400%;
+}
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>About Chamisa</title>
+		<link rel="stylesheet" href="./style.css"/>
+	</head>
+	<body>
+		<h1> Hi! My name is Chamisa </h1>
+		<img src="chamisa.jpg" height=320 width=180 border="2px">
+		<p> I am Navajo, Blackfeet and Shoshone-Bannock. I grew up in Lawrence, Kansas (ROCK CHALK!
+			<img src="jayhawk.png" height="15" width="15">)
+			and moved to New Mexico in 2016. <br/>
+			My family is originally from Shiprock, New Mexico, a town on the Northeastern
+			border of the Navajo Nation. <br/></p>
+			<div id="map" style="width:200px;height:200px"> A map will be here</div>
+		<script>
+			function myMap() {
+				var mapOptions = {
+					center: new google.maps.LatLng(51.5, -0.12),
+					zoom: 10,
+					myTypeId: google.maps.MapTypeId.HYBRID
+				}
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+	</body>
+</html>
+

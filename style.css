@@ -1,11 +1,21 @@
 body {
 	text-align: center;
-	font-family: Georgia, sans-serif;
+	font-family: "fantasy", sans-serif;
 	font-size: large;
-	background-color: snow;
-	align-content: center;
-	background: linear-gradient(200deg, #2be8b7, #db2dd4);
+	color: yellow;
+	align-content: space-evenly;
 	background-size: 400% 400%;
+	background-color: burlywood;
 }
 
+table, td, th {
+border: 1px solid deepskyblue;
+}
 
+th {
+	color: green;
+}
+
+img {
+	border: 3px solid purple;
+}
